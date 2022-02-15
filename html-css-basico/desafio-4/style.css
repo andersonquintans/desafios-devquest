@@ -2,6 +2,7 @@
 .moda{
     color: white;
     
+    
 }
 
 .moda .cabecalho{
@@ -15,6 +16,7 @@
 
 .casa{
     color: white;
+    
 }
 .casa .cabecalho{
     background-color: #00C4B4;
@@ -27,4 +29,5 @@
 
 td{
     width: 100px;
+    padding: 5px;
 }
