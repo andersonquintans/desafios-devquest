@@ -1,12 +1,14 @@
 
-.paragrafo-tipo1 {
+.paragrafo-normal {
     background-color: #f5f5f5;
-    margin: 40px;
-    padding: 20px;
+    
 }
 
-.paragrafo-tipo2{
+.paragrafo-destacado{
     background-color: #F0CCE2;
+}
+
+p {
     margin: 40px;
     padding: 20px;
 }
