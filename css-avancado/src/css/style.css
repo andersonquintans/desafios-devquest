@@ -1,0 +1,112 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url(../css-avancado/src/images/bg-desktop.svg) center center no-repeat;
+    background-color: var(--color-violet);
+    background-size: cover;
+    width: 90%;
+    margin: 0 auto;
+    font-family: var(--body-font-family);
+    font-weight: 400;
+    max-width: 1440px;
+    
+}
+
+.header .logo{
+   margin-top: 30px;
+   margin-bottom: 40px;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.about .item{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 10px;
+}
+
+.about .image.big{
+    width: 95%;
+}
+
+.about .item .title{
+    font-size: 3.5rem;
+    color: #fff;
+    font-family: var(--heading-font-family);
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.about .item .text{
+    font-family: var(--heading-font-family);
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.about .item .btn{
+    font-size: 1.8rem;
+    color: var(--color-violet);
+    background-color: #fff;
+    padding: 12px 43px;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.about .item .btn:hover{
+    color: #fff;
+    background-color: var(--color-soft-magenta);
+    cursor: pointer;
+}
+
+
+.footer .social .social-links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social .social-links li{
+    margin: 0 10px;
+}
+.footer .social .social-links li a{
+    color: #fff;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    transition: .3s ease-in-out;
+}
+
+.footer .social .social-links li a:hover{
+    color: var(--color-soft-magenta);
+    border-color: var(--color-soft-magenta);
+}
+
+.credit{
+    text-align: center;
+    font-family: var(--body-font-family);
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.credit .credit-list .link{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+
