@@ -9,13 +9,14 @@
 
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
 </head>
 
 <body>
     <main>
         <section class="container">
             <div class="text-left">
-                <h1 class="titulo">FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+                <h1 class="title">FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
 
                 <p class="info">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
                     contato em menos de 24h.</p>
@@ -23,33 +24,35 @@
 
             <div class="box-form">
                 <form class="form">
-                    <div class="nome box">
+                    <div class="name box">
                         <input type="text" class="input" name="nome" placeholder="Nome completo *">
-                        <small>campo obrigatório</small>
+                        <small class="alert">campo obrigatório</small>
                     </div>
 
                     <div class="email box">
                         <input type="text" class="input" name="email" placeholder="Email *">
-                        <small>campo obrigatório</small>
+                        <small class="alert">campo obrigatório</small>
                     </div>
 
-                    <div class="telefone box">
+                    <div class="fone box">
                         <input type="text" class="input" name="telefone" placeholder="Telefone *">
-                        <small>campo obrigatório</small>
+                        <small class="alert">campo obrigatório</small>
                     </div>
 
-                    <div class="mensagem box">
+                    <div class="message box">
                         <textarea name="" id="mensagem" class="input" placeholder="Mensagem *"></textarea>
-                        <small>campo obrigatório</small>
+                        <small class="alert">campo obrigatório</small>
                     </div>
 
-                    <p class="campo-obrigatorio">*campos obrigatórios</p>
+                    <p class="mandatory">*campos obrigatórios</p>
 
-                    <button type="submit" id="btn" value="submit">Enviar</button>
+                    <button type="button" class="button" id="btn">Enviar</button>
                 </form>
             </div>
         </section>
     </main>
+
+    <script type="text/javascript" src="src/js/validation.js"></script>
 </body>
 
 </html>

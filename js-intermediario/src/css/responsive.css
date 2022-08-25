@@ -1,0 +1,15 @@
+@media(max-width: 760px) {
+    .container {
+        width: auto;
+    }
+
+    .box-form {
+        width: 90%;
+        margin-right: 10px;
+    }
+
+    .text-left {
+        width: 90%;
+        margin-left: 10px;
+    }
+}

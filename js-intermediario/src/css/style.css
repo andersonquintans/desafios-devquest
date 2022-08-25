@@ -58,13 +58,13 @@ main {
     font-size: 15px;
 }
 
-.box-form .mensagem textarea {
+.box-form .message textarea {
     height: 100px;
     resize: none;
     display: block;
 }
 
-.box-form .campo-obrigatorio {
+.box-form .mandatory {
     font-size: 15px;
 }
 
@@ -80,7 +80,7 @@ main {
     font-size: 15px;
 }
 
-.box-form small {
+.box-form .alert {
     position: absolute;
     color: red;
     left: 0;
@@ -88,4 +88,16 @@ main {
     font-size: 8px;
     line-height: 9px;
     display: none;
+}
+
+.box-form .input.valid {
+    border: 1px solid #00C22B;
+}
+
+.box-form .input.invalid {
+    border: 1px solid #F52E2E;
+}
+
+.box-form .alert.error {
+    display: block;
 }
