@@ -1,6 +1,6 @@
 @media(max-width: 760px) {
     .container {
-        width: auto;
+        width: 90%;
     }
 
     .box-form {
